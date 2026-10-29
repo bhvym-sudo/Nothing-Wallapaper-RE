@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.cardwidget.RoundCornersRelativeLayout android:background="@drawable/color_media_second_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutCornerRadius="52.6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nothing.cardwidget.RoundCornersFrameLayout android:id="@id/music_album_small_icon_layout" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" app:cornersRadius="16.0">
+        <ImageView android:id="@id/music_album_small_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <ImageView android:id="@id/play_pause_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </com.nothing.cardwidget.RoundCornersFrameLayout>
+    <ImageView android:id="@id/second_music_app_icon" android:padding="10.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="4.0dip" android:scaleType="fitXY" android:layout_marginEnd="4.0dip" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/music_name_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/music_album_small_icon_layout" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/color_album_artist_text" android:ellipsize="marquee" android:id="@id/music_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textFontWeight="400">
+            <requestFocus />
+        </TextView>
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_album_artist_text" android:ellipsize="marquee" android:id="@id/artist_album_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:textFontWeight="300">
+            <requestFocus />
+        </TextView>
+    </LinearLayout>
+    <ProgressBar android:id="@id/music_position_bar" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="12.0dip" android:layout_below="@id/music_name_layout" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/MediaProgressBar" />
+</com.nothing.cardwidget.RoundCornersRelativeLayout>

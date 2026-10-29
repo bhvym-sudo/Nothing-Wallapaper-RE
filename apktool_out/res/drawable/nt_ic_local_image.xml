@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="64.0dip" android:width="64.0dip" android:autoMirrored="true" android:viewportWidth="64.0" android:viewportHeight="64.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/nt_icon_color1" android:pathData="M0.872,4.368C0,6.079 0,8.32 0,12.8V51.2C0,55.68 0,57.921 0.872,59.632C1.639,61.137 2.863,62.361 4.368,63.128C6.079,64 8.32,64 12.8,64H44L64,44V12.8C64,8.32 64,6.079 63.128,4.368C62.361,2.863 61.137,1.639 59.632,0.872C57.921,0 55.68,0 51.2,0H12.8C8.32,0 6.079,0 4.368,0.872C2.863,1.639 1.639,2.863 0.872,4.368Z" android:fillType="evenOdd" />
+    <group>
+        <clip-path android:pathData="M20,20h24v24h-24z" />
+        <path android:fillColor="@color/nt_icon_color3" android:pathData="M25,41C24.45,41 23.979,40.804 23.587,40.412C23.196,40.021 23,39.55 23,39V25C23,24.45 23.196,23.979 23.587,23.587C23.979,23.196 24.45,23 25,23H39C39.55,23 40.021,23.196 40.412,23.587C40.804,23.979 41,24.45 41,25V39C41,39.55 40.804,40.021 40.412,40.412C40.021,40.804 39.55,41 39,41H25ZM25,39H39V25H25V39ZM26,37H38L34.25,32L31.25,36L29,33L26,37Z" />
+    </group>
+    <path android:fillColor="@color/nt_icon_color2" android:pathData="M64,44L44,64L44,52C44,47.582 47.582,44 52,44L64,44Z" />
+</vector>

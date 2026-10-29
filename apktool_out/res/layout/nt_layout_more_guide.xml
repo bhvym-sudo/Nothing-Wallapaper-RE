@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_more_wallpapers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nt_ic_more_wallpaper" />
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.nothing.wallpaper.widget.RoundImageView android:id="@id/img_ai_wallpaper" android:visibility="gone" android:layout_width="@dimen/nt_creative_icon_width" android:layout_height="@dimen/nt_creative_icon_height" android:src="@drawable/ic_creative_wallpaper" android:scaleType="centerCrop" app:roundRadius="99.0dip" />
+            <TextView android:textAppearance="@style/MoreWallpaperTitleTextAppearance" android:textSize="12.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/text_ai_wallpaper" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nt_ai" android:lineSpacingExtra="2.0sp" android:contentDescription="@string/nt_ai_wallpaper_title" android:letterSpacing="0.04" android:lineHeight="16.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+    <TextView android:textAppearance="@style/MoreWallpaperTitleTextAppearance" android:layout_gravity="center" android:id="@id/nt_more_wallpapers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nt_more_wallpapers_entrance_title" android:layout_marginStart="8.0dip" />
+</LinearLayout>

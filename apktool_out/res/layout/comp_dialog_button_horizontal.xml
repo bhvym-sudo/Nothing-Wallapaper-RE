@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/start_btn_container" android:background="@drawable/dialog_btn_background_horizontal_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/layout_padding_4xs" android:layout_weight="1.0">
+        <TextView android:id="@id/start_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Button" style="@style/NtDialogButtonText" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/middle_btn_container" android:background="@drawable/dialog_btn_background_middle" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/layout_padding_4xs" android:layout_weight="1.0">
+        <TextView android:id="@id/middle_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Button" style="@style/NtDialogButtonText" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/end_btn_container" android:background="@drawable/dialog_btn_background_horizontal_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/end_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Button" style="@style/NtDialogButtonText" />
+    </FrameLayout>
+</LinearLayout>

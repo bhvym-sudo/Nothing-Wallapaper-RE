@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="@dimen/nt_diagram_picture_height" android:width="@dimen/nt_diagram_picture_width" android:drawable="@drawable/nt_home_screen_diagram_bauhaus" />
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/nt_diagram_picture_border_size" android:color="@color/nt_diagram_picture_border_color" />
+            <corners android:radius="@dimen/nt_color_effect_preview_round_radius" />
+        </shape>
+    </item>
+</layer-list>

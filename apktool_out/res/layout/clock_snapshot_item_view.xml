@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.wallpaper.picker.lockscreen.ui.view.ClockSnapshotItemView android:gravity="center" android:id="@id/clock_face_container" android:tag="layout/clock_snapshot_item_view_0" android:background="@drawable/bg_clock_edit_style_item" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

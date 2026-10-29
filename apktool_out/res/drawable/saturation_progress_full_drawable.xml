@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/slider_foreground" android:height="48.0dip">
+        <shape>
+            <size android:height="48.0dip" />
+            <solid android:color="@color/system_secondary" />
+            <corners android:radius="24.0dip" />
+        </shape>
+    </item>
+    <item android:gravity="right|center" android:id="@id/slider_icon" android:height="20.0dip" android:width="20.0dip" android:drawable="@drawable/ic_contrast" android:right="14.0dip" />
+</layer-list>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nothing.cardwidget.mediaplayer.view.MediaPlayerPagerView android:id="@id/media_player_pager_view" android:background="@drawable/media_player_page_view_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.viewpager2.widget.ViewPager2 android:orientation="vertical" android:id="@id/media_player_viewpager2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.nothing.cardwidget.NTPageIndicatorDot android:layout_gravity="right|center" android:id="@id/media_player_indicator" android:layout_width="20.0dip" android:layout_height="200.0dip" app:dotAppearBegin="true" app:dotDefaultColor="@color/color_media_page_indicator_default" app:dotFadeDelay="200" app:dotFadeDots="true" app:dotMargin="6.0dip" app:dotOrientation="vertical" app:dotRadius="2.0dip" app:dotSelectColor="@color/color_media_page_indicator_selected" />
+    </com.nothing.cardwidget.mediaplayer.view.MediaPlayerPagerView>
+    <TextView android:textSize="20.0sp" android:textColor="@color/color_text_enable_authorize_tips" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/authorize_guide_cover" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="ndot" android:textFontWeight="400" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/startup_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wallpaper android:description="@string/blur_wallpaper_description" android:thumbnail="@drawable/ic_app_home" android:author="@string/blur_wallpaper_author" android:contextUri="@string/blur_wallpaper_context_uri" android:contextDescription="@string/blur_wallpaper_context_description"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

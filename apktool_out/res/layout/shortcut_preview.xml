@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/shortcut_preview_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/shortcut_preview_margin_start">
+        <com.nothing.wallpaper.picker.lockscreen.ui.view.TransitionImageView android:id="@id/slot_start" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:background1="@drawable/shape_hollow_circle" app:background2="@drawable/shape_solid_circle" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.nothing.wallpaper.picker.lockscreen.ui.view.TransitionImageView android:id="@id/slot_end" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:background1="@drawable/shape_hollow_circle" app:background2="@drawable/shape_solid_circle" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

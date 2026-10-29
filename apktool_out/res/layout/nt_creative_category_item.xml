@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/nt_creative_category_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/default_view" android:layout_width="fill_parent" android:layout_height="@dimen/nt_wallpaper_item_height" android:foreground="?selectableItemBackground" android:layout_marginHorizontal="@dimen/nt_wallpaper_list_margin_horizontal" app:cardCornerRadius="@dimen/nt_card_corner_radius" app:cardElevation="0.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content_parent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/default_creative_bg" android:scaleType="centerCrop" />
+            <TextView android:textAppearance="@style/ntRobotoTextAppearance.category" android:textColor="@android:color/system_neutral1_0" android:id="@id/default_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_8dp" android:layout_marginStart="@dimen/nt_creative_paddings" app:layout_constraintBottom_toTopOf="@id/default_summary" app:layout_constraintStart_toStartOf="parent" />
+            <TextView android:textAppearance="@style/ntRobotoTextAppearance" android:textColor="@android:color/system_neutral1_0" android:id="@id/default_summary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nt_creative_paddings" android:text="@string/nt_ai_wallpaper_summary" android:layout_marginStart="@dimen/nt_creative_paddings" android:layout_marginEnd="@dimen/nt_creative_paddings" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/id_create" app:layout_constraintStart_toStartOf="parent" />
+            <ImageView android:id="@id/id_create" android:background="@drawable/nt_btn_material_bg" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginBottom="@dimen/nt_creative_paddings" android:src="@drawable/nt_ic_creative_light" android:scaleType="center" android:layout_marginEnd="@dimen/nt_creative_paddings" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <include android:id="@id/category_view" android:visibility="gone" layout="@layout/nt_category_view" />
+</FrameLayout>

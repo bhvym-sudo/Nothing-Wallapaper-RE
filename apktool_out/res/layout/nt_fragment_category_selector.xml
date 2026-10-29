@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fragment_container" android:tag="layout/nt_fragment_category_selector_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/page_mask" android:background="@color/nt_wallpaper_lib_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.nothing.wallpaper.widget.RoundCoordinatorLayout android:id="@id/category_lib_parent" android:background="@color/nt_list_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" app:roundRadius="26.0dip">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:liftOnScroll="true" app:liftOnScrollColor="@color/nt_appbar_lifted_bg_color">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ntToolbarStyle">
+                <TextView android:textAppearance="@style/ntRobotoMediumTextAppearance.toolbar" android:ellipsize="end" android:layout_gravity="center" android:id="@id/custom_toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.nothing.wallpaper.widget.VerticallyRecyclerView android:id="@id/category_List" android:paddingTop="@dimen/nt_wallpaper_list_padding_top" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <com.nothing.wallpaper.picker.individual.IndividualPickerFrame android:id="@id/individual_grid" android:paddingTop="@dimen/nt_wallpaper_list_padding_top" android:visibility="gone" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/nt_wallpaper_item_padding" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </com.nothing.wallpaper.widget.RoundCoordinatorLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.wallpaper.picker.lockscreen.ui.view.WidgetSettingsToast android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="60.0dip" android:paddingHorizontal="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@style/ntRobotoTextAppearance" android:textColor="@color/widget_picker_title_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/settings_tips" android:layout_width="wrap_content" android:layout_height="52.0dip" android:text="@string/widget_picker_open_settings_toast" android:paddingHorizontal="24.0dip" />
+    </FrameLayout>
+</com.nothing.wallpaper.picker.lockscreen.ui.view.WidgetSettingsToast>

@@ -1,0 +1,48 @@
+package p175r4;
+
+import java.util.AbstractSet;
+import java.util.Iterator;
+import java.util.Map;
+
+/* JADX INFO: renamed from: r4.j, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes.dex */
+final class C1818j extends AbstractSet {
+
+    /* JADX INFO: renamed from: q, reason: collision with root package name */
+    final /* synthetic */ C1849m f26741q;
+
+    C1818j(C1849m c1849m) {
+        this.f26741q = c1849m;
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.util.Set
+    public final void clear() {
+        this.f26741q.clear();
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.util.Set
+    public final boolean contains(Object obj) {
+        return this.f26741q.containsKey(obj);
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.lang.Iterable, java.util.Set
+    public final Iterator iterator() {
+        C1849m c1849m = this.f26741q;
+        Map mapL = c1849m.l();
+        return mapL != null ? mapL.keySet().iterator() : new C1752d(c1849m);
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.util.Set
+    public final boolean remove(Object obj) {
+        Map mapL = this.f26741q.l();
+        if (mapL != null) {
+            return mapL.keySet().remove(obj);
+        }
+        return this.f26741q.u(obj) != C1849m.f26808z;
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.util.Set
+    public final int size() {
+        return this.f26741q.size();
+    }
+}

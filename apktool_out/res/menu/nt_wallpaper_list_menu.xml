@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/nt_ic_close" android:id="@id/menu_close" android:title="@string/bottom_action_bar_back" android:iconTint="@color/nt_icon_color" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_delete" android:id="@id/menu_delete" android:title="@string/delete_live_wallpaper" android:iconTint="@color/nt_icon_color" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,60 @@
+package p165q4;
+
+import U4.c;
+import U4.d;
+import androidx.appcompat.app.o;
+
+/* JADX INFO: renamed from: q4.x0, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes.dex */
+final class C1645x0 implements d {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    static final C1645x0 f24936a = new C1645x0();
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    private static final c f24937b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    private static final c f24938c;
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    private static final c f24939d;
+
+    /* JADX INFO: renamed from: e, reason: collision with root package name */
+    private static final c f24940e;
+
+    /* JADX INFO: renamed from: f, reason: collision with root package name */
+    private static final c f24941f;
+
+    static {
+        c.b bVarA = c.a("errorCode");
+        C1519f c1519f = new C1519f();
+        c1519f.a(1);
+        f24937b = bVarA.b(c1519f.b()).a();
+        c.b bVarA2 = c.a("hasResult");
+        C1519f c1519f2 = new C1519f();
+        c1519f2.a(2);
+        f24938c = bVarA2.b(c1519f2.b()).a();
+        c.b bVarA3 = c.a("isColdCall");
+        C1519f c1519f3 = new C1519f();
+        c1519f3.a(3);
+        f24939d = bVarA3.b(c1519f3.b()).a();
+        c.b bVarA4 = c.a("imageInfo");
+        C1519f c1519f4 = new C1519f();
+        c1519f4.a(4);
+        f24940e = bVarA4.b(c1519f4.b()).a();
+        c.b bVarA5 = c.a("recognizerOptions");
+        C1519f c1519f5 = new C1519f();
+        c1519f5.a(5);
+        f24941f = bVarA5.b(c1519f5.b()).a();
+    }
+
+    private C1645x0() {
+    }
+
+    @Override // U4.d
+    public final /* bridge */ /* synthetic */ void a(Object obj, Object obj2) {
+        o.a(obj);
+        throw null;
+    }
+}

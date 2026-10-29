@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clock_carousel_guideline_margin">220.0dip</dimen>
+    <dimen name="clock_carousel_item_width">607.0dip</dimen>
+    <dimen name="screen_preview_width">450.0dip</dimen>
+    <item type="dimen" name="status_bar_header_height_keyguard">@android:dimen/secondary_rounded_corner_radius_top</item>
+</resources>

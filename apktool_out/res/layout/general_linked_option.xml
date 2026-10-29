@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.wallpaper.picker.lockscreen.ui.view.AccessibilityLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/option_icon_container" android:background="@drawable/option_icon_container_ripple" android:layout_width="@dimen/nt_option_icon_container_size" android:layout_height="@dimen/nt_option_icon_container_size">
+        <ImageView android:layout_gravity="center" android:id="@id/option_icon" android:layout_width="@dimen/nt_option_icon_size" android:layout_height="@dimen/nt_option_icon_size" />
+    </FrameLayout>
+    <TextView android:textAppearance="@style/NTOptionDescriptionTextAppearance" android:gravity="center_horizontal" android:id="@id/option_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nt_option_description_top_margin" android:importantForAccessibility="no" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="8.0sp" />
+</com.nothing.wallpaper.picker.lockscreen.ui.view.AccessibilityLinearLayout>

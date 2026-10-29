@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/clock_color_size_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/clock_color_size_button_min_height" android:paddingHorizontal="@dimen/clock_color_size_button_horizontal_padding" android:paddingVertical="@dimen/clock_color_size_button_vertical_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="@dimen/clock_color_size_button_icon_size" android:layout_height="@dimen/clock_color_size_button_icon_size" android:src="@drawable/ic_settings" android:tint="@color/system_primary" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/clock_color_size_button_icon_margin_end" />
+    <TextView android:textColor="@color/system_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clock_color_and_size_title" />
+</LinearLayout>

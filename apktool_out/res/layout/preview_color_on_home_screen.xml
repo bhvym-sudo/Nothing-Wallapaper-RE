@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/preview_container" android:tag="layout/preview_color_on_home_screen_0" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nothing.wallpaper.widget.RoundFWDRFrameLayout android:layout_gravity="center" android:id="@id/preview_host" android:tag="binding_1" android:layout_width="@dimen/nt_color_preview_width" android:layout_height="wrap_content" app:roundRadius="@dimen/nt_color_effect_preview_round_radius">
+        <include android:id="@id/home_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/wallpaper_preview_card" />
+        <ImageView android:id="@id/icon_diagram" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.nothing.wallpaper.widget.RoundFWDRFrameLayout>
+</FrameLayout>

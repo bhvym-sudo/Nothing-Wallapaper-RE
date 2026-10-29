@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.wallpaper.picker.lockscreen.ui.view.WidgetPickerBottomSheet android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no">
+        <com.nothing.wallpaper.picker.lockscreen.ui.view.DeleteDropView android:id="@id/widget_delete_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.nothing.wallpaper.picker.lockscreen.ui.view.WidgetPickerGroupPage android:id="@id/widget_picker_group" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.nothing.wallpaper.picker.lockscreen.ui.view.WidgetPickerDetails android:id="@id/widget_picker_detail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</com.nothing.wallpaper.picker.lockscreen.ui.view.WidgetPickerBottomSheet>

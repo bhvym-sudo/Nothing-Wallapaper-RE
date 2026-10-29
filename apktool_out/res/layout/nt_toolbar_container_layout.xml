@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.wallpaper.widget.InterceptCoordinatorLayout android:orientation="vertical" android:id="@id/content_parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/customization_picker_section_header" />
+    <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <FrameLayout android:id="@id/widget_pick_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.nothing.wallpaper.widget.InterceptCoordinatorLayout>

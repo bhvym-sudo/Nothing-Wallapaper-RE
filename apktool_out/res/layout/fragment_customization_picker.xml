@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.customization.picker.HorizontalTouchMovementAwareNestedScrollView android:id="@id/home_scroll_container" android:background="@android:color/transparent" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="always">
+        <LinearLayout android:orientation="vertical" android:id="@id/home_section_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginVertical="@dimen/section_container_vertical_margin" />
+    </com.android.customization.picker.HorizontalTouchMovementAwareNestedScrollView>
+    <com.android.customization.picker.HorizontalTouchMovementAwareNestedScrollView android:id="@id/lock_scroll_container" android:background="@android:color/transparent" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="always">
+        <LinearLayout android:orientation="vertical" android:id="@id/lock_section_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginVertical="@dimen/section_container_vertical_margin" />
+    </com.android.customization.picker.HorizontalTouchMovementAwareNestedScrollView>
+</FrameLayout>

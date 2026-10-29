@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.wallpaper.widget.RoundImageView android:id="@id/image" android:tag="layout/nt_photo_view_0" android:layout_width="@dimen/nt_photo_icon_size" android:layout_height="@dimen/nt_photo_icon_size" android:scaleType="centerCrop" app:roundRadius="@dimen/nt_photo_icon_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

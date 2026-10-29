@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.systemui.shared.clocks.view.GeneralClockView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/container_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="start|bottom" android:id="@id/info_placeholder_text_view" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clock_text_placeholder" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:lineSpacingExtra="0.0dip" android:lineSpacingMultiplier="1.0" android:fontFamily="ndot" android:layoutDirection="ltr" android:layout_alignParentStart="true" android:textFontWeight="400" />
+        <TextView android:ellipsize="end" android:id="@id/info_top_text_view" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_above="@id/info_bottom_container_layout" android:lineSpacingExtra="0.0dip" android:lineSpacingMultiplier="1.0" android:layout_alignParentStart="true" android:textFontWeight="500" />
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/info_bottom_container_layout" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+            <TextView android:ellipsize="end" android:id="@id/info_front_text_view" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:lineSpacingExtra="0.0dip" android:lineSpacingMultiplier="1.0" android:textFontWeight="500" />
+            <ImageView android:id="@id/weather_icon_view" android:layout_width="@dimen/clock_icon_secondary_size" android:layout_height="@dimen/clock_icon_secondary_size" />
+            <TextView android:ellipsize="end" android:id="@id/info_rear_text_view" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:lineSpacingExtra="0.0dip" android:lineSpacingMultiplier="1.0" android:textFontWeight="500" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.nothing.systemui.shared.clocks.view.GeneralClockView>

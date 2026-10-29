@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:tag="layout/shortcut_picker_page_0" android:layout_width="fill_parent" android:layout_height="80.0dip" app:liftOnScroll="true" app:liftOnScrollColor="@color/nt_appbar_lifted_bg_color">
+        <View android:layout_gravity="center_horizontal" android:id="@id/collapse_handle" android:background="@drawable/widget_picker_collapse_handle" android:layout_width="@dimen/bottom_sheet_handle_width" android:layout_height="@dimen/bottom_sheet_handle_height" android:layout_marginTop="@dimen/bottom_sheet_handle_margin" />
+        <TextView android:textAppearance="@style/ntRobotoMediumTextAppearance.title" android:textSize="20.0sp" android:textColor="@color/widget_picker_title_color" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/nt_keyguard_quick_affordance_section_title" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/shortcut_list_view" android:tag="layout/shortcut_picker_page_1" android:paddingBottom="32.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</merge>

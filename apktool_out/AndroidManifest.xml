@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" android:requiredSplitTypes="base__abi,base__density" android:splitTypes="" package="com.nothing.wallpaper" platformBuildVersionCode="35" platformBuildVersionName="15">
+    <permission android:name="com.nothing.wallpaper.permission.SET_WALLPAPER" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.android.settings.permission.LAUNCH_SUBSETTINGS"/>
+    <uses-permission android:name="com.nothing.launcher.permission.ACCESS_SHARE_INFO"/>
+    <uses-permission android:name="com.nothing.weather.permission.ACCESS_WEATHER_INFO"/>
+    <uses-permission android:name="com.nothing.permission.READ_QUICKLOOK_SHARE"/>
+    <uses-permission android:name="com.nothing.wallpapersstub.permission.ACCESS_SHARE_INFO"/>
+    <uses-feature android:name="com.nothing.feature.OS.V2_5_Beta2" android:required="true"/>
+    <queries>
+        <package android:name="com.nothing.customization.pixel"/>
+        <package android:name="com.android.customization.themes"/>
+        <intent>
+            <action android:name="android.intent.action.SET_WALLPAPER"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+            <data android:mimeType="image/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="http"/>
+        </intent>
+        <intent>
+            <action android:name="android.service.wallpaper.WallpaperService"/>
+        </intent>
+        <intent>
+            <action android:name="com.android.launcher3.action.PARTNER_CUSTOMIZATION"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.HOME"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+        </intent>
+        <package android:name="com.nothing.cardservice.client"/>
+        <package android:name="com.nothing.cardservice"/>
+    </queries>
+    <queries>
+        <package android:name="com.nothing.wallpapersstub"/>
+        <provider android:authorities="com.nothing.wallpapersstub.provider.WallpapersStubShareProvider"/>
+    </queries>
+    <uses-permission android:name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_COMPONENT"/>
+    <uses-permission android:name="android.permission.READ_DEVICE_CONFIG"/>
+    <uses-permission android:name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
+    <uses-permission android:name="android.permission.CUSTOMIZE_SYSTEM_UI"/>
+    <permission android:name="com.android.wallpaper.NOTIFY_ROTATING_WALLPAPER_CHANGED" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_WALLPAPER_INTERNAL"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_DIM_AMOUNT"/>
+    <uses-permission android:name="android.permission.BIND_WALLPAPER"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.android.wallpaper.NOTIFY_ROTATING_WALLPAPER_CHANGED"/>
+    <uses-permission android:name="com.nothing.blurwallpaper.AtmosphereProvider"/>
+    <uses-permission android:name="com.nothing.permission.BIND_CARD_SERVICE"/>
+    <permission android:name="com.nothing.blurwallpaper.AtmosphereProvider" android:protectionLevel="signatureOrSystem"/>
+    <uses-feature android:glEsVersion="0x00030000" android:required="true"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.nothing.soundrecorder.permission.RECORD"/>
+    <permission android:name="com.nothing.wallpaper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.nothing.wallpaper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:enableOnBackInvokedCallback="true" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@drawable/ic_app_home" android:label="@string/nt_app_name" android:name="com.nothing.wallpaper.NTPickerApplication" android:requiredForAllUsers="true" android:restoreAnyVersion="true" android:supportsRtl="true" android:theme="@style/CustomizationTheme">
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.mlkit.vision.DEPENDENCIES" android:value="subject_segment"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.android.wallpaper.picker.CustomizationPickerActivity" android:relinquishTaskIdentity="false" android:resizeableActivity="false" android:screenOrientation="portrait" android:theme="@style/ntWallpaperTheme"/>
+        <activity-alias android:exported="true" android:label="@string/app_name" android:name="com.android.wallpaper.picker.CategoryPickerActivity" android:targetActivity="com.android.wallpaper.picker.CustomizationPickerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:exported="true" android:label="@string/app_name" android:name="com.android.customization.picker.CustomizationPickerActivity" android:targetActivity="com.android.wallpaper.picker.CustomizationPickerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:exported="false" android:label="@string/app_name" android:name="com.android.wallpaper.picker.PassThroughCustomizationPickerActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:theme="@style/CustomizationTheme.NoActionBar"/>
+        <activity android:exported="false" android:label="@string/app_name" android:name="com.android.wallpaper.picker.TrampolinePickerActivity" android:relinquishTaskIdentity="true" android:resizeableActivity="false" android:screenOrientation="portrait" android:theme="@style/CustomizationTheme.NoActionBar"/>
+        <activity android:name="com.android.wallpaper.picker.PreviewActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:theme="@style/WallpaperTheme.Preview"/>
+        <activity android:name="com.android.wallpaper.picker.FullPreviewActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:taskAffinity="@string/full_screen_task_affinity" android:theme="@style/WallpaperTheme.Preview"/>
+        <activity android:name="com.android.wallpaper.picker.StandalonePreviewActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.android.wallpaper.picker.ViewOnlyPreviewActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:theme="@style/WallpaperTheme.Preview"/>
+        <activity android:configChanges="uiMode" android:exported="true" android:launchMode="singleTop" android:name="com.nothing.wallpaper.picker.customization.ui.activity.NTColorPickerActivity" android:permission="com.nothing.wallpaper.permission.SET_WALLPAPER" android:screenOrientation="portrait" android:theme="@style/WallpaperTheme">
+            <intent-filter>
+                <action android:name="nothing.action.wallpaper.COLOR_PICKER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.nothing.wallpaper.picker.edit.container.EditWallpaperActivity" android:screenOrientation="portrait" android:theme="@style/WallpaperTheme"/>
+        <activity android:exported="true" android:name="com.nothing.wallpaper.picker.edit.container.StandaloneEditWallpaperActivity" android:relinquishTaskIdentity="true" android:resizeableActivity="false" android:screenOrientation="portrait" android:theme="@style/WallpaperTheme">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.CROP_AND_SET_WALLPAPER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="com.nothing.wallpaper.picker.creative.CreativeWallpaperActivity" android:permission="com.nothing.wallpaper.permission.SET_WALLPAPER" android:screenOrientation="portrait" android:theme="@style/WallpaperTheme">
+            <intent-filter>
+                <action android:name="nothing.action.wallpaper.CREATIVE_WALLPAPER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.nothing.wallpaper.picker.lockscreen.ui.LockScreenPreviewActivity" android:screenOrientation="portrait" android:theme="@style/LockscreenTheme">
+            <intent-filter>
+                <action android:name="nothing.intent.action.SET_WALLPAPER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.nothing.wallpaper.picker.creative.AiWallpaperEntranceActivity" android:screenOrientation="portrait" android:theme="@style/Theme.EssentialIntelligenceManager.Detail">
+            <intent-filter>
+                <action android:name="com.ai.entrance.collections.action.FEATURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.ai.entrance.collections.title" android:resource="@string/nt_ai_wallpaper_title"/>
+            <meta-data android:name="com.ai.entrance.collections.summary" android:resource="@string/ai_entrance_preference_summary"/>
+            <meta-data android:name="com.ai.entrance.collections.order" android:value="12000"/>
+        </activity>
+        <meta-data android:name="com.android.wallpaper.asset.WallpaperGlideModule" android:value="GlideModule"/>
+        <service android:directBootAware="true" android:exported="true" android:label="@string/blur_wallpaper_name" android:name="com.nothing.blurwallpaper.AtmosphereWallpaperService" android:permission="android.permission.BIND_WALLPAPER" android:process=":Atmosphere">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService"/>
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/wallpaper"/>
+        </service>
+        <provider android:authorities="com.nothing.blurwallpaper.AtmosphereProvider" android:exported="true" android:name="com.nothing.blurwallpaper.AtmosphereProvider" android:permission="com.nothing.blurwallpaper.AtmosphereProvider" android:process=":Atmosphere"/>
+        <activity android:excludeFromRecents="true" android:name="androidx.slice.compat.SlicePermissionActivity"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.segmentation.subject.internal.SubjectSegmentationRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:authorities="com.nothing.wallpaper.mlkitinitprovider" android:exported="false" android:initOrder="99" android:name="com.google.mlkit.common.internal.MlKitInitProvider"/>
+        <property android:name="com.nothing.cardservice.host.api_level" android:value="13"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.nothing.wallpaper.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+</manifest>

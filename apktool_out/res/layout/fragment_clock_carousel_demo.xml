@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/section_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/section_header" />
+    </FrameLayout>
+    <com.android.customization.picker.clock.ui.view.ClockCarouselView android:id="@id/image_carousel_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

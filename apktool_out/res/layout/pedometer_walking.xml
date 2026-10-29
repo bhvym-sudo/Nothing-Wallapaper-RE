@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nothing.cardwidget.pedometer.PedometerWalkingBgView android:id="@id/walking_bg_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="11.0px" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/human_view" android:background="@drawable/anim_human_walking" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <TextView android:textSize="52.5px" android:gravity="center" android:id="@id/tv_today_percent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:lines="1" android:includeFontPadding="false" android:layout_below="@id/walking_bg_view" android:textAllCaps="true" android:fontFamily="ndot" android:textDirection="locale" android:textFontWeight="400" />
+</RelativeLayout>

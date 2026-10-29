@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.customization.picker.color.ui.view.ColorSectionView android:orientation="vertical" android:background="@drawable/top_connected_section_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/section_bottom_padding" android:layout_marginHorizontal="@dimen/section_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/color_section_option_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="@integer/color_section_num_columns" android:paddingHorizontal="24.0dip" android:paddingVertical="20.0dip">
+        <include android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/color_option_overflow_no_background" />
+    </LinearLayout>
+    <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:textColor="@color/system_primary" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/more_colors" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minHeight="48.0dip" android:text="@string/more_colors" android:drawablePadding="12.0dip" android:drawableStart="@drawable/ic_nav_color" android:drawableTint="@color/system_primary" />
+</com.android.customization.picker.color.ui.view.ColorSectionView>

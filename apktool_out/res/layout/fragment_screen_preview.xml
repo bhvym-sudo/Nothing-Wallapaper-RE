@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/screen_preview_click_view" android:tag="layout/fragment_screen_preview_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.wallpaper.picker.FixedWidthDisplayRatioFrameLayout android:layout_gravity="center|top" android:id="@id/preview_host" android:tag="binding_1" android:layout_width="@dimen/nt_screen_preview_width" android:layout_height="wrap_content">
+        <include android:layout_gravity="center" android:id="@id/preview" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/wallpaper_preview_card" />
+    </com.android.wallpaper.picker.FixedWidthDisplayRatioFrameLayout>
+</FrameLayout>

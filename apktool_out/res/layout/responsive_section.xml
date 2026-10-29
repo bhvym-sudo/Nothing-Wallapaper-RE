@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.wallpaper.picker.customization.ui.section.ResponsiveLayoutSectionView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/vertical_divider_8dp" android:showDividers="middle" android:paddingHorizontal="@dimen/tab_container_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

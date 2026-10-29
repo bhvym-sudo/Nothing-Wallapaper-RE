@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:background="@color/intelligence_window_background_color" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:liftOnScroll="true" app:liftOnScrollColor="@color/intelligence_liftOn_color">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleCentered="true" app:titleTextAppearance="@style/TextAppearance.DetailToolBar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/bottom_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/intelligence_detail_bottom_layout_height">
+        <View android:id="@id/line_view" android:background="@color/intelligence_bottom_line_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Button android:textSize="18.0sp" android:textColor="#ff1c1c1c" android:id="@id/button" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginTop="24.0dip" android:text="@string/intelligence_try_it_out" android:backgroundTint="#ffffc700" android:layout_marginHorizontal="16.0dip" />
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

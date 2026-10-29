@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M18,10m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M18,8m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M18,16m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M10,14m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M12,10m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M12,8m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M12,16m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M16,10m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M14,10m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M16,8m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M14,8m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M16,16m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M14,16m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M20,12m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M20,10m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M20,14m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M6,14m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M4,14m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M4,10m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M8,8m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M8,16m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M4,12m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M6,10m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M6,8m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M6,16m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M18,12m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M12,12m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M16,12m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M14,12m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M18,14m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M12,14m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M16,14m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M14,14m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M10,10m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M10,8m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+    <path android:fillColor="@color/nt_widgets_cate_icon_color" android:pathData="M10,16m1,-0a1,1 0,1 1,-2 -0a1,1 0,1 1,2 -0" />
+</vector>

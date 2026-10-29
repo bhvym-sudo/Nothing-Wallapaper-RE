@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/duo_tabs_divider" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/tab_primary" android:background="@drawable/duo_tabs_preview_button_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/separated_tabs_height" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:id="@id/tab_secondary" android:background="@drawable/duo_tabs_preview_button_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/separated_tabs_height" android:layout_weight="1.0" />
+</LinearLayout>

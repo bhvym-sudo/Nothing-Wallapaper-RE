@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:clipChildren="false" android:layout_width="@dimen/option_item_size" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:clipChildren="false" android:layout_width="@dimen/option_item_size" android:layout_height="@dimen/option_item_size">
+        <ImageView android:id="@id/selection_border" android:background="@drawable/option_item_border" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" android:importantForAccessibility="no" />
+        <ImageView android:id="@id/background" android:background="@drawable/option_item_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="center" android:id="@id/foreground" android:layout_width="58.0dip" android:layout_height="58.0dip" />
+    </FrameLayout>
+    <View android:layout_width="0.0dip" android:layout_height="8.0dip" />
+    <TextView android:textColor="@color/text_color_primary" android:ellipsize="end" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Placeholder for stable size calculation, please do not remove." android:singleLine="true" />
+</LinearLayout>

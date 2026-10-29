@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wallpapers>
+    <category id="nothing_category" priority="1" thumbnail="@drawable/wallpaper_embrin" title="@string/nothing_wallpaper_title">
+        <static-wallpaper coverPriority="142" gridPriority="20" id="wallpaper_embrin" src="@drawable/wallpaper_embrin" supportDepth="false" title="@string/wallpaper_embrin_title" />
+        <static-wallpaper coverPriority="141" gridPriority="10" id="wallpaper_azuron" src="@drawable/wallpaper_azuron" supportDepth="false" title="@string/wallpaper_azuron_title" />
+    </category>
+</wallpapers>

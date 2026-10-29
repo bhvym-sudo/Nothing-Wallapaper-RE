@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="440.0dip" android:width="198.0dip" android:autoMirrored="true" android:viewportWidth="414.0" android:viewportHeight="920.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/nt_calculator_diagram_background_section_color" android:pathData="M0,0h414v920h-414z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_deep_color" android:pathData="M63,384L63,384A44,44 0,0 1,107 428L107,428A44,44 0,0 1,63 472L63,472A44,44 0,0 1,19 428L19,428A44,44 0,0 1,63 384z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M63,328L63,328A16,16 0,0 1,79 344L79,344A16,16 0,0 1,63 360L63,360A16,16 0,0 1,47 344L47,344A16,16 0,0 1,63 328z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M135,328L135,328A16,16 0,0 1,151 344L151,344A16,16 0,0 1,135 360L135,360A16,16 0,0 1,119 344L119,344A16,16 0,0 1,135 328z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M207,328L207,328A16,16 0,0 1,223 344L223,344A16,16 0,0 1,207 360L207,360A16,16 0,0 1,191 344L191,344A16,16 0,0 1,207 328z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M279,328L279,328A16,16 0,0 1,295 344L295,344A16,16 0,0 1,279 360L279,360A16,16 0,0 1,263 344L263,344A16,16 0,0 1,279 328z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M351,328L351,328A16,16 0,0 1,367 344L367,344A16,16 0,0 1,351 360L351,360A16,16 0,0 1,335 344L335,344A16,16 0,0 1,351 328z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M63,488L63,488A44,44 0,0 1,107 532L107,532A44,44 0,0 1,63 576L63,576A44,44 0,0 1,19 532L19,532A44,44 0,0 1,63 488z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M63,592L63,592A44,44 0,0 1,107 636L107,636A44,44 0,0 1,63 680L63,680A44,44 0,0 1,19 636L19,636A44,44 0,0 1,63 592z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M63,696L63,696A44,44 0,0 1,107 740L107,740A44,44 0,0 1,63 784L63,784A44,44 0,0 1,19 740L19,740A44,44 0,0 1,63 696z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M63,800L63,800A44,44 0,0 1,107 844L107,844A44,44 0,0 1,63 888L63,888A44,44 0,0 1,19 844L19,844A44,44 0,0 1,63 800z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_normal_color" android:pathData="M159,384L159,384A44,44 0,0 1,203 428L203,428A44,44 0,0 1,159 472L159,472A44,44 0,0 1,115 428L115,428A44,44 0,0 1,159 384z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M159,488L159,488A44,44 0,0 1,203 532L203,532A44,44 0,0 1,159 576L159,576A44,44 0,0 1,115 532L115,532A44,44 0,0 1,159 488z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M159,696L159,696A44,44 0,0 1,203 740L203,740A44,44 0,0 1,159 784L159,784A44,44 0,0 1,115 740L115,740A44,44 0,0 1,159 696z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M159,592L159,592A44,44 0,0 1,203 636L203,636A44,44 0,0 1,159 680L159,680A44,44 0,0 1,115 636L115,636A44,44 0,0 1,159 592z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M159,800L159,800A44,44 0,0 1,203 844L203,844A44,44 0,0 1,159 888L159,888A44,44 0,0 1,115 844L115,844A44,44 0,0 1,159 800z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_normal_color" android:pathData="M255,384L255,384A44,44 0,0 1,299 428L299,428A44,44 0,0 1,255 472L255,472A44,44 0,0 1,211 428L211,428A44,44 0,0 1,255 384z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M255,696L255,696A44,44 0,0 1,299 740L299,740A44,44 0,0 1,255 784L255,784A44,44 0,0 1,211 740L211,740A44,44 0,0 1,255 696z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M255,488L255,488A44,44 0,0 1,299 532L299,532A44,44 0,0 1,255 576L255,576A44,44 0,0 1,211 532L211,532A44,44 0,0 1,255 488z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M255,592L255,592A44,44 0,0 1,299 636L299,636A44,44 0,0 1,255 680L255,680A44,44 0,0 1,211 636L211,636A44,44 0,0 1,255 592z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_light_color" android:pathData="M255,800L255,800A44,44 0,0 1,299 844L299,844A44,44 0,0 1,255 888L255,888A44,44 0,0 1,211 844L211,844A44,44 0,0 1,255 800z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_normal_color" android:pathData="M351,696L351,696A44,44 0,0 1,395 740L395,740A44,44 0,0 1,351 784L351,784A44,44 0,0 1,307 740L307,740A44,44 0,0 1,351 696z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_normal_color" android:pathData="M351,384L351,384A44,44 0,0 1,395 428L395,428A44,44 0,0 1,351 472L351,472A44,44 0,0 1,307 428L307,428A44,44 0,0 1,351 384z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_normal_color" android:pathData="M351,488L351,488A44,44 0,0 1,395 532L395,532A44,44 0,0 1,351 576L351,576A44,44 0,0 1,307 532L307,532A44,44 0,0 1,351 488z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_normal_color" android:pathData="M351,592L351,592A44,44 0,0 1,395 636L395,636A44,44 0,0 1,351 680L351,680A44,44 0,0 1,307 636L307,636A44,44 0,0 1,351 592z" />
+    <path android:fillColor="@color/nt_calculator_diagram_button_section_deep_color" android:pathData="M351,800L351,800A44,44 0,0 1,395 844L395,844A44,44 0,0 1,351 888L351,888A44,44 0,0 1,307 844L307,844A44,44 0,0 1,351 800z" />
+    <path android:fillColor="@color/nt_calculator_diagram_top_section_color" android:pathData="M0,0H414V280C414,293.26 403.26,304 390,304H24C10.75,304 0,293.26 0,280V0Z" />
+</vector>

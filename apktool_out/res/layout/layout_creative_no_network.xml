@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/cl_no_network_info" android:tag="layout/layout_creative_no_network_0" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="85.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_no_network_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_network_off" android:tint="@color/nt_ai_wallpaper_no_network_info_color" android:contentDescription="@string/nt_no_network_connection" />
+    <TextView android:textAppearance="@style/NTProcessingTextAppearance" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_no_network_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/nt_no_network_connection" />
+</LinearLayout>

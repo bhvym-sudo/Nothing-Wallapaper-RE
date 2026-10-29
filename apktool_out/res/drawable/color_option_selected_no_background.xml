@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="@dimen/component_color_selected_small_diameter_default" android:width="@dimen/component_color_selected_small_diameter_default">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/component_color_overflow_small_radius_default" android:thickness="2.0dip">
+            <solid android:color="@color/system_secondary" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/component_color_selected_small_diameter_default" android:width="@dimen/component_color_selected_small_diameter_default">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/component_color_overflow_small_radius_default" android:thickness="-3.0dip">
+            <solid android:color="@color/color_surface" />
+        </shape>
+    </item>
+</layer-list>

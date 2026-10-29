@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:id="@id/drag_layer" android:tag="layout/lock_screen_preview_layout_0" android:background="#4d000000" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.nothing.wallpaper.picker.lockscreen.ui.graphics.LockScreenPreviewLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher3.Workspace android:id="@id/workspace" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.nothing.wallpaper.picker.lockscreen.ui.view.ClockHostView android:id="@id/clockHostView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:clockState="current" />
+    <com.nothing.wallpaper.picker.lockscreen.ui.view.ShortCutPreview android:layout_gravity="bottom" android:id="@id/shortcut_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" app:ShortState="preview" />
+    <ImageView android:layout_gravity="center|bottom" android:id="@id/fingerprint_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="56.0dip" android:src="@drawable/fingerprint_icon" />
+</view>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/set_wallpaper_button_corner_radius" />
+    <padding android:left="@dimen/set_wallpaper_button_horizontal_padding" android:top="@dimen/set_wallpaper_button_vertical_padding" android:right="@dimen/set_wallpaper_button_horizontal_padding" android:bottom="@dimen/set_wallpaper_button_vertical_padding" />
+    <solid android:color="@color/color_accent_primary" />
+</shape>

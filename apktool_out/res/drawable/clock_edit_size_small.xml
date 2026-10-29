@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <vector android:height="64.0dip" android:width="177.0dip" android:viewportWidth="177.0" android:viewportHeight="64.0">
+            <path android:fillColor="@color/nt_clock_choice_background" android:pathData="M20,0L157,0A20,20 0,0 1,177 20L177,44A20,20 0,0 1,157 64L20,64A20,20 0,0 1,0 44L0,20A20,20 0,0 1,20 0z" />
+            <path android:fillColor="@color/nt_clock_choice_content_disable" android:pathData="M78.12,24.45C78.6,23.96 79.4,23.96 79.88,24.45L86.26,30.82C86.91,31.47 86.91,32.53 86.26,33.18L79.88,39.55C79.4,40.04 78.6,40.04 78.12,39.55C77.63,39.06 77.63,38.27 78.12,37.78L82.65,33.25H72.33C71.64,33.25 71.08,32.69 71.08,32C71.08,31.31 71.64,30.75 72.33,30.75H82.65L78.12,26.22C77.63,25.73 77.63,24.94 78.12,24.45Z" />
+            <path android:fillColor="@color/nt_clock_choice_content_disable" android:pathData="M98.12,24.45C98.6,23.96 99.4,23.96 99.88,24.45C100.37,24.94 100.37,25.73 99.88,26.22L95.35,30.75H105.67C106.36,30.75 106.92,31.31 106.92,32C106.92,32.69 106.36,33.25 105.67,33.25H95.35L99.88,37.78C100.37,38.27 100.37,39.06 99.88,39.55C99.4,40.04 98.6,40.04 98.12,39.55L91.74,33.18C91.09,32.53 91.09,31.47 91.74,30.82L98.12,24.45Z" />
+        </vector>
+    </item>
+    <item>
+        <vector android:height="64.0dip" android:width="177.0dip" android:viewportWidth="177.0" android:viewportHeight="64.0">
+            <path android:fillColor="@color/nt_clock_choice_background" android:pathData="M20,0L157,0A20,20 0,0 1,177 20L177,44A20,20 0,0 1,157 64L20,64A20,20 0,0 1,0 44L0,20A20,20 0,0 1,20 0z" />
+            <path android:fillColor="@color/nt_clock_choice_content" android:pathData="M78.12,24.45C78.6,23.96 79.4,23.96 79.88,24.45L86.26,30.82C86.91,31.47 86.91,32.53 86.26,33.18L79.88,39.55C79.4,40.04 78.6,40.04 78.12,39.55C77.63,39.06 77.63,38.27 78.12,37.78L82.65,33.25H72.33C71.64,33.25 71.08,32.69 71.08,32C71.08,31.31 71.64,30.75 72.33,30.75H82.65L78.12,26.22C77.63,25.73 77.63,24.94 78.12,24.45Z" />
+            <path android:fillColor="@color/nt_clock_choice_content" android:pathData="M98.12,24.45C98.6,23.96 99.4,23.96 99.88,24.45C100.37,24.94 100.37,25.73 99.88,26.22L95.35,30.75H105.67C106.36,30.75 106.92,31.31 106.92,32C106.92,32.69 106.36,33.25 105.67,33.25H95.35L99.88,37.78C100.37,38.27 100.37,39.06 99.88,39.55C99.4,40.04 98.6,40.04 98.12,39.55L91.74,33.18C91.09,32.53 91.09,31.47 91.74,30.82L98.12,24.45Z" />
+        </vector>
+    </item>
+</selector>

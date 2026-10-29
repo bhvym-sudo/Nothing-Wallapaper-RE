@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="full_preview_page_default_padding_top">22.0dip</dimen>
+    <item type="dimen" name="full_preview_page_vertical_bias">0.0</item>
+    <dimen name="home_screen_overlay_bottom_clipping">100.0dip</dimen>
+    <dimen name="home_screen_overlay_top_clipping">0.0dip</dimen>
+    <item type="dimen" name="preview_card_vertical_bias">0.0</item>
+</resources>

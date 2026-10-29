@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "version": 10000001,
+      "depth_config": {
+        "depth_overlap_rate": 0.25
+      }
+    }
+  ]
+}

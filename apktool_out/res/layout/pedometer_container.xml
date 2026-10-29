@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/pedometer_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:orientation="vertical" android:id="@id/pedometer_viewpager" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:clipToOutline="true" />
+    <com.nothing.cardwidget.NTPageIndicatorDot android:layout_gravity="end|center" android:id="@id/pedometer_page_indicator" android:visibility="invisible" android:layout_width="32.0px" android:layout_height="451.0px" app:dotAppearBegin="true" app:dotDefaultColor="@color/page_indicator_default_color" app:dotFadeDelay="200" app:dotFadeDots="true" app:dotMargin="6.0dip" app:dotOrientation="vertical" app:dotRadius="2.0dip" app:dotSelectColor="@color/page_indicator_selected_color" />
+    <TextView android:gravity="center" android:id="@id/abnormal_txt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="2" android:fontFamily="ndot" android:textFontWeight="400" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/pedometer_anim_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

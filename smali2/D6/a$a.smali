@@ -1,0 +1,52 @@
+.class public final LD6/a$a;
+.super LD6/a;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LD6/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# static fields
+.field public static final a:LD6/a$a;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    new-instance v0, LD6/a$a;
+
+    invoke-direct {v0}, LD6/a$a;-><init>()V
+
+    sput-object v0, LD6/a$a;->a:LD6/a$a;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .registers 2
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, v0}, LD6/a;-><init>(Lkotlin/jvm/internal/h;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public toString()Ljava/lang/String;
+    .registers 1
+
+    const-string p0, "Raw"
+
+    return-object p0
+.end method

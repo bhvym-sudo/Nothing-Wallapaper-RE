@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:transitionGroup="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/section_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/section_header" />
+    </FrameLayout>
+    <com.android.wallpaper.picker.DisplayAspectRatioFrameLayout android:paddingTop="20.0dip" android:paddingBottom="40.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include android:layout_gravity="center" android:id="@id/lock_preview" android:layout_width="0.0dip" android:layout_height="fill_parent" layout="@layout/wallpaper_preview_card" />
+        <com.android.customization.picker.clock.ui.view.ClockHostView android:layout_gravity="center" android:id="@id/clock_host_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="noHideDescendants" />
+    </com.android.wallpaper.picker.DisplayAspectRatioFrameLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/picker_fragment_background" android:paddingTop="22.0dip" android:paddingBottom="36.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip" android:layout_marginHorizontal="24.0dip">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="22.0dip">
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/tabs" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" />
+            <include android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/picker_fragment_tab" />
+        </FrameLayout>
+        <FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/color_picker_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <HorizontalScrollView android:id="@id/color_options_scroll_view" android:scrollbars="none" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:id="@id/color_options" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:divider="@drawable/horizontal_divider_8dp" android:showDividers="middle" android:paddingHorizontal="16.0dip" />
+                    </HorizontalScrollView>
+                    <include android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/clock_color_option" />
+                </FrameLayout>
+                <SeekBar android:layout_gravity="center_vertical" android:id="@id/slider" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/saturation_progress_drawable" android:minHeight="48.0dip" android:thumb="@null" android:contentDescription="@string/accessibility_clock_slider_description" android:splitTrack="false" android:paddingHorizontal="16.0dip" />
+            </LinearLayout>
+            <RadioGroup android:orientation="vertical" android:id="@id/clock_size_radio_button_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16.0dip">
+                <RadioButton android:ellipsize="end" android:id="@id/radio_dynamic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:maxLines="3" android:singleLine="false" android:paddingStart="8.0dip" />
+                <RadioButton android:ellipsize="end" android:id="@id/radio_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:singleLine="false" android:paddingStart="8.0dip" />
+            </RadioGroup>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

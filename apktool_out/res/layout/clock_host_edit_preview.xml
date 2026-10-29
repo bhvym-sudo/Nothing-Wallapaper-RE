@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/clock_content" android:tag="layout/clock_host_edit_preview_0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.nothing.wallpaper.picker.lockscreen.ui.view.ClockHostEditBorderView android:id="@id/bgBorder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.nothing.wallpaper.picker.lockscreen.ui.view.TopAreaView android:id="@id/top_area" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.nothing.wallpaper.picker.lockscreen.ui.view.ClockEditContentView android:orientation="horizontal" android:id="@id/clock_face_current" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</merge>

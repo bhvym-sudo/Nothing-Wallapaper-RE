@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="920.0dip" android:width="414.0dip" android:autoMirrored="true" android:viewportWidth="414.0" android:viewportHeight="920.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffe0e0e0" android:pathData="M30,381a36,36 0,1 0,72 0a36,36 0,1 0,-72 0z" />
+    <path android:fillColor="#ff0d4e82" android:pathData="M124,381a36,36 0,1 0,72 0a36,36 0,1 0,-72 0z" />
+    <path android:fillColor="@color/nt_home_screen_diagram_icon_color" android:pathData="M66,251L160,251A36,36 0,0 1,196 287L196,287A36,36 0,0 1,160 323L66,323A36,36 0,0 1,30 287L30,287A36,36 0,0 1,66 251z" />
+    <path android:fillColor="#ff48525b" android:pathData="M30,146C30,100.16 67.16,63 113,63C158.84,63 196,100.16 196,146C196,191.84 158.84,229 113,229C67.16,229 30,191.84 30,146Z" />
+    <path android:fillColor="@color/nt_home_screen_diagram_icon_color" android:pathData="M238,63L364,63A20,20 0,0 1,384 83L384,209A20,20 0,0 1,364 229L238,229A20,20 0,0 1,218 209L218,83A20,20 0,0 1,238 63z" />
+    <path android:fillColor="@color/nt_home_screen_diagram_icon_color" android:pathData="M218,522C218,476.16 255.16,439 301,439C346.84,439 384,476.16 384,522C384,567.84 346.84,605 301,605C255.16,605 218,567.84 218,522Z" />
+    <path android:fillColor="@color/nt_home_screen_diagram_icon_color" android:pathData="M50,439L176,439A20,20 0,0 1,196 459L196,585A20,20 0,0 1,176 605L50,605A20,20 0,0 1,30 585L30,459A20,20 0,0 1,50 439z" />
+    <path android:fillColor="#ff48525b" android:pathData="M218,287a36,36 0,1 0,72 0a36,36 0,1 0,-72 0z" />
+    <path android:fillColor="#fffcca21" android:pathData="M312,381a36,36 0,1 0,72 0a36,36 0,1 0,-72 0z" />
+    <path android:fillColor="#ff48525b" android:pathData="M312,663a36,36 0,1 0,72 0a36,36 0,1 0,-72 0z" />
+    <path android:fillColor="#ffe0e0e0" android:pathData="M218,381a36,36 0,1 0,72 0a36,36 0,1 0,-72 0z" />
+    <path android:fillColor="#ff0d4e82" android:pathData="M218,663a36,36 0,1 0,72 0a36,36 0,1 0,-72 0z" />
+    <path android:fillColor="#ffe0e0e0" android:pathData="M124,663a36,36 0,1 0,72 0a36,36 0,1 0,-72 0z" />
+    <path android:fillColor="#ff48525b" android:pathData="M30,663a36,36 0,1 0,72 0a36,36 0,1 0,-72 0z" />
+    <path android:fillColor="@color/nt_home_screen_diagram_icon_color" android:pathData="M332,251L364,251A20,20 0,0 1,384 271L384,303A20,20 0,0 1,364 323L332,323A20,20 0,0 1,312 303L312,271A20,20 0,0 1,332 251z" />
+    <path android:fillColor="#ff0d4e82" android:pathData="M30,851a36,36 0,1 0,72 0a36,36 0,1 0,-72 0z" />
+    <path android:fillColor="#ffe0e0e0" android:pathData="M124,851a36,36 0,1 0,72 0a36,36 0,1 0,-72 0z" />
+    <path android:fillColor="#fffcca21" android:pathData="M218,851a36,36 0,1 0,72 0a36,36 0,1 0,-72 0z" />
+    <path android:fillColor="#ff48525b" android:pathData="M312,851a36,36 0,1 0,72 0a36,36 0,1 0,-72 0z" />
+    <path android:fillColor="#ffd71921" android:pathData="M374,825m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+    <path android:fillColor="#ffd71921" android:pathData="M186,637m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+    <path android:fillColor="#ffd71921" android:pathData="M280,261m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+</vector>

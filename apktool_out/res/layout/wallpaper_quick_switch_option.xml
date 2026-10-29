@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/wallpaper_quick_switch_option_background" android:layout_width="wrap_content" android:layout_height="@dimen/wallpaper_quick_switch_selected_option_height" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/selection_border" android:background="@drawable/wallpaper_quick_switch_option_selection_marker_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/selection_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/check_circle_secondary_24dp" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

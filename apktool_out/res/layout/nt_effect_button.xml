@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:tag="layout/nt_effect_button_0" android:background="@drawable/nt_effect_btn_bg" android:layout_width="@dimen/nt_effect_btn_icon_size" android:layout_height="@dimen/nt_effect_btn_icon_size" android:scaleType="center" />
+    <TextView android:textAppearance="@style/ntRobotoMediumTextAppearance" android:textColor="@color/nt_effect_title_color" android:id="@id/title" android:tag="layout/nt_effect_button_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    <TextView android:textAppearance="@style/ntRobotoTextAppearance" android:textColor="@color/nt_effect_summary_color" android:id="@id/state" android:tag="layout/nt_effect_button_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/off" />
+</merge>

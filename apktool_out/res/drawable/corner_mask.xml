@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="-8.0dip" android:top="-8.0dip" android:right="-8.0dip" android:bottom="-8.0dip">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/nt_creative_prompt_placeholder_margin" android:color="@color/nt_list_bg_color" />
+            <corners android:radius="@dimen/nt_creative_prompt_radius" />
+        </shape>
+    </item>
+</layer-list>

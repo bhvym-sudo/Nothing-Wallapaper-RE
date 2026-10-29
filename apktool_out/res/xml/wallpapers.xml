@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wallpapers>
+    <color-category id="color_category" priority="150" title="@string/color_category">
+        <color-wallpaper color="@color/nt_pure_black_color" id="pure_black_color_wallpaper" title="@string/pure_black_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_dark_graphite_color" id="dark_graphite_color_wallpaper" title="@string/dark_graphite_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_asphalt_color" id="asphalt_color_wallpaper" title="@string/asphalt_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_slate_color" id="slate_color_wallpaper" title="@string/slate_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_medium_grey_color" id="medium_grey_color_wallpaper" title="@string/medium_grey_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_light_grey_color" id="light_grey_color_wallpaper" title="@string/light_grey_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_forest_green_color" id="forest_green_color_wallpaper" title="@string/forest_green_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_bright_green_color" id="bright_green_color_wallpaper" title="@string/bright_green_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_moss_color" id="moss_color_wallpaper" title="@string/moss_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_pale_green_color" id="pale_green_color_wallpaper" title="@string/pale_green_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_stormy_cloud_color" id="stormy_cloud_color_wallpaper" title="@string/stormy_cloud_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_evening_sky_color" id="evening_sky_color_wallpaper" title="@string/evening_sky_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_teal_color" id="teal_color_wallpaper" title="@string/teal_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_hazy_blue_color" id="hazy_blue_color_wallpaper" title="@string/hazy_blue_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_mint_color" id="mint_color_wallpaper" title="@string/mint_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_bright_orange_color" id="bright_orange_color_wallpaper" title="@string/bright_orange_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_peach_color" id="peach_color_wallpaper" title="@string/peach_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_plum_color" id="plum_color_wallpaper" title="@string/plum_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_lavender_color" id="lavender_color_wallpaper" title="@string/lavender_color_wallpaper_title" />
+        <color-wallpaper color="@color/nt_powder_color" id="powder_color_wallpaper" title="@string/powder_color_wallpaper_title" />
+    </color-category>
+</wallpapers>

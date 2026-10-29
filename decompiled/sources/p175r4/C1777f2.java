@@ -1,0 +1,46 @@
+package p175r4;
+
+import U4.c;
+import U4.d;
+import androidx.appcompat.app.o;
+
+/* JADX INFO: renamed from: r4.f2, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes.dex */
+final class C1777f2 implements d {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    static final C1777f2 f26656a = new C1777f2();
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    private static final c f26657b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    private static final c f26658c;
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    private static final c f26659d;
+
+    static {
+        c.b bVarA = c.a("inferenceCommonLogEvent");
+        C1731b0 c1731b0 = new C1731b0();
+        c1731b0.a(1);
+        f26657b = bVarA.b(c1731b0.b()).a();
+        c.b bVarA2 = c.a("options");
+        C1731b0 c1731b1 = new C1731b0();
+        c1731b1.a(2);
+        f26658c = bVarA2.b(c1731b1.b()).a();
+        c.b bVarA3 = c.a("imageInfo");
+        C1731b0 c1731b2 = new C1731b0();
+        c1731b2.a(3);
+        f26659d = bVarA3.b(c1731b2.b()).a();
+    }
+
+    private C1777f2() {
+    }
+
+    @Override // U4.d
+    public final /* bridge */ /* synthetic */ void a(Object obj, Object obj2) {
+        o.a(obj);
+        throw null;
+    }
+}

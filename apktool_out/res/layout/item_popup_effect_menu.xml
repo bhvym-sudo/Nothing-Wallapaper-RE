@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="55.0dip">
+        <ImageView android:id="@id/item_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" android:tint="@color/color_text_primary" android:layout_marginStart="16.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/color_text_primary" android:gravity="start" android:id="@id/item_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textDirection="locale" android:textAlignment="viewStart" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" android:lineHeight="24.0dip" android:textFontWeight="400" />
+        <com.nothing.wallpaper.picker.lockscreen.ui.view.NtRadioButton android:id="@id/item_rb" android:focusable="true" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <View android:id="@id/decoration" android:background="@color/color_border_lighter" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

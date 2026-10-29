@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_container" android:tag="layout/nt_category_item_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/card_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" app:cardCornerRadius="@dimen/nt_card_corner_radius" app:cardElevation="0.0dip">
+        <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/nt_wallpaper_gallery" />
+    </androidx.cardview.widget.CardView>
+    <ImageView android:id="@id/indicator_icon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/nt_wallpaper_check_bg" android:scaleType="center" />
+    <ImageView android:layout_gravity="center" android:id="@id/dimming_scrim" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/nt_wallpaper_scrim_bg" android:scaleType="center" />
+    <ImageView android:layout_gravity="center" android:id="@id/selected_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_selected_circle" android:scaleType="center" />
+    <TextView android:textAppearance="@style/ntRobotoTextAppearance" android:textSize="14.0sp" android:textColor="@color/nt_page_foot_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_foot_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" android:layout_marginHorizontal="48.0dip" />
+</FrameLayout>

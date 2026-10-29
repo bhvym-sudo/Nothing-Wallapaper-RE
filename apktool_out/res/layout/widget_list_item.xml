@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/widget_list_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nothing.wallpaper.picker.lockscreen.ui.view.ClipCardView android:id="@id/card_view" android:background="@drawable/widget_card_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackgroundBorderless" android:layout_centerHorizontal="true" android:clipToOutline="true">
+        <ImageView android:id="@id/group_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="16.0dip" android:scaleType="center" android:layout_marginStart="16.0dip" />
+        <ImageView android:id="@id/group_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </com.nothing.wallpaper.picker.lockscreen.ui.view.ClipCardView>
+    <TextView android:textAppearance="@style/ntRobotoMediumTextAppearance" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_below="@id/card_view" android:layout_centerHorizontal="true" />
+</RelativeLayout>

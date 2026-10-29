@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.wallpaper.picker.FixedWidthDisplayRatioFrameLayout android:layout_gravity="center" android:clipChildren="false" android:layout_width="@dimen/screen_preview_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.customization.picker.clock.ui.view.ClockHostView android:layout_gravity="center" android:id="@id/single_clock_host_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.android.wallpaper.picker.FixedWidthDisplayRatioFrameLayout>

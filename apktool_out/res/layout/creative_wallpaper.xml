@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tile_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/CategorySectionTitleTextAppearance" android:layout_gravity="bottom" android:id="@id/tile_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/creative_wallpaper_title" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linear_layout_for_cards" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" />
+</LinearLayout>

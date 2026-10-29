@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="72.0dip" android:width="72.0dip" android:viewportWidth="72.0" android:viewportHeight="72.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/material_color_on_surface_inverse" android:pathData="M36,0L36,0A36,36 0,0 1,72 36L72,36A36,36 0,0 1,36 72L36,72A36,36 0,0 1,0 36L0,36A36,36 0,0 1,36 0z" />
+    <group>
+        <clip-path android:pathData="M24,24h24v24h-24z" />
+        <path android:fillColor="@color/material_color_on_surface_variant" android:pathData="M31,45C30.45,45 29.979,44.804 29.587,44.412C29.196,44.021 29,43.55 29,43V30H28V28H33V27H39V28H44V30H43V43C43,43.55 42.804,44.021 42.412,44.412C42.021,44.804 41.55,45 41,45H31ZM41,30H31V43H41V30ZM33,41H35V32H33V41ZM37,41H39V32H37V41Z" />
+    </group>
+</vector>

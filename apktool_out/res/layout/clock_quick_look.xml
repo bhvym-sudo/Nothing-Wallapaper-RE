@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nothing.systemui.shared.clocks.view.QuickLookClockView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/container_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+        <TextView android:ellipsize="none" android:gravity="center" android:layout_gravity="center" android:id="@id/clock_text_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="104.0" android:fontFamily="ndot" android:textFontWeight="400" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/weather_container_view" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="84.0">
+            <ImageView android:layout_gravity="center" android:id="@id/weather_icon_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_gravity="center" android:id="@id/weather_placeholder_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clock_image_placeholder" android:fontFamily="ndot" android:textFontWeight="400" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/info_container_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="166.0">
+            <TextView android:ellipsize="end" android:layout_gravity="top" android:id="@id/info_top_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:textFontWeight="500" />
+            <TextView android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/info_bottom_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:textFontWeight="500" />
+            <TextView android:layout_gravity="center" android:id="@id/info_placeholder_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clock_text_placeholder" android:fontFamily="ndot" android:layoutDirection="ltr" android:textFontWeight="400" />
+        </FrameLayout>
+    </LinearLayout>
+</com.nothing.systemui.shared.clocks.view.QuickLookClockView>

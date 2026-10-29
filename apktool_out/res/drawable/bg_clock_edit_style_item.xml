@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <vector android:height="112.0dip" android:width="168.0dip" android:viewportWidth="168.0" android:viewportHeight="112.0">
+            <group>
+                <clip-path android:pathData="M24 0H144C157.255 0 168 10.7452 168 24V88C168 101.255 157.255 112 144 112H24C10.7452 112 0 101.255 0 88V24C0 10.7452 10.7452 0 24 0Z" />
+                <path android:pathData="M24 0H144C157.255 0 168 10.7452 168 24V88C168 101.255 157.255 112 144 112H24C10.7452 112 0 101.255 0 88V24C0 10.7452 10.7452 0 24 0Z" android:strokeColor="@color/nt_color_accent" android:strokeWidth="4.0" />
+                <path android:fillColor="@color/nt_clock_choice_background" android:pathData="M24,4 L144,4 A20,20 0,0 1,164,24 L164,88 A20,20 0,0 1,144,108 L24,108 A20,20 0,0 1,4,88 L4,24 A20,20 0,0 1,24,4 z" />
+            </group>
+        </vector>
+    </item>
+    <item>
+        <vector android:height="104.0dip" android:width="160.0dip" android:viewportWidth="160.0" android:viewportHeight="104.0">
+            <path android:fillColor="@color/nt_clock_choice_background" android:pathData="M20,0L140,0A20,20 0,0 1,160 20L160,84A20,20 0,0 1,140 104L20,104A20,20 0,0 1,0 84L0,20A20,20 0,0 1,20 0z" />
+        </vector>
+    </item>
+</selector>

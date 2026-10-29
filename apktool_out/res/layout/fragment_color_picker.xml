@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/section_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/section_header" />
+    </FrameLayout>
+    <com.android.wallpaper.picker.DisplayAspectRatioLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="20.0dip" android:paddingBottom="40.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginHorizontal="24.0dip">
+        <include android:id="@id/lock_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/wallpaper_preview_card" />
+        <include android:id="@id/home_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/wallpaper_preview_card" />
+    </com.android.wallpaper.picker.DisplayAspectRatioLinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/picker_fragment_background" android:paddingTop="22.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip" android:layout_marginHorizontal="24.0dip">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/color_type_tabs" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" />
+            <include android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/picker_fragment_tab" />
+        </FrameLayout>
+        <View android:layout_width="0.0dip" android:layout_height="6.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/text_color_secondary" android:gravity="center" android:id="@id/color_type_tab_subhead" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" />
+        <View android:layout_width="0.0dip" android:layout_height="8.0dip" />
+        <FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/color_options" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" />
+            <include android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/color_option" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/dark_mode_toggle_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

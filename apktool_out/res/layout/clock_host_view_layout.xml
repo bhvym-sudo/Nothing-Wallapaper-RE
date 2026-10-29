@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/clock_content" android:tag="layout/clock_host_view_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.nothing.wallpaper.picker.lockscreen.ui.view.TopAreaView android:id="@id/top_area" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.viewpager2.widget.ViewPager2 android:layout_gravity="bottom" android:id="@id/clock_face_Page" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/clock_face_current" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.android.launcher3.pageindicators.PageIndicatorDots android:id="@id/clock_indicator" android:tag="layout/clock_host_view_layout_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/page_indicator_dot_size" android:layout_marginTop="@dimen/nt_clock_indicator_margin_top" />
+</merge>

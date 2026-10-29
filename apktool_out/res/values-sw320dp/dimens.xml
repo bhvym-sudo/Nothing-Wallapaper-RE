@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nt_color_options_min_height">88.0dip</dimen>
+    <dimen name="nt_color_picker_element_vertical_padding">4.0dip</dimen>
+    <dimen name="nt_option_description_top_margin">3.0dip</dimen>
+    <dimen name="nt_option_icon_container_size">62.0dip</dimen>
+    <dimen name="nt_option_icon_size">42.0dip</dimen>
+    <dimen name="nt_option_icon_size_half">21.0dip</dimen>
+</resources>

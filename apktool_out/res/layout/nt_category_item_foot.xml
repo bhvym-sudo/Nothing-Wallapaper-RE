@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/nt_category_item_foot_0" android:layout_width="fill_parent" android:layout_height="@dimen/nt_individual_foot_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/ntRobotoTextAppearance" android:textSize="14.0sp" android:textColor="@color/nt_page_foot_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_foot_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" android:layout_marginHorizontal="48.0dip" />
+</FrameLayout>

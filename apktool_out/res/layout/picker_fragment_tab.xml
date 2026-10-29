@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/text_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/touch_target_min_width" android:minHeight="@dimen/touch_target_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/picker_fragment_tab_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/text" android:background="@drawable/picker_fragment_tab_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="48.0dip" android:minHeight="36.0dip" android:maxLines="1" android:paddingHorizontal="16.0dip" android:paddingVertical="8.0dip" />
+</FrameLayout>

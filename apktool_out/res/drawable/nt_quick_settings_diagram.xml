@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="440.0dip" android:width="198.0dip" android:autoMirrored="true" android:viewportWidth="414.0" android:viewportHeight="920.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/nt_control_center_diagram_bg_section_color" android:pathData="M0,0h414v920h-414z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dark_color" android:pathData="M320,852L320,852A18,18 0,0 1,338 870L338,870A18,18 0,0 1,320 888L320,888A18,18 0,0 1,302 870L302,870A18,18 0,0 1,320 852z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dark_color" android:pathData="M372,852L372,852A18,18 0,0 1,390 870L390,870A18,18 0,0 1,372 888L372,888A18,18 0,0 1,354 870L354,870A18,18 0,0 1,372 852z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_light_color" android:pathData="M66,121L160,121A36,36 0,0 1,196 157L196,157A36,36 0,0 1,160 193L66,193A36,36 0,0 1,30 157L30,157A36,36 0,0 1,66 121z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dark_color" android:pathData="M66,215L160,215A36,36 0,0 1,196 251L196,251A36,36 0,0 1,160 287L66,287A36,36 0,0 1,30 251L30,251A36,36 0,0 1,66 215z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dark_color" android:pathData="M238,121L364,121A20,20 0,0 1,384 141L384,267A20,20 0,0 1,364 287L238,287A20,20 0,0 1,218 267L218,141A20,20 0,0 1,238 121z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dark_color" android:pathData="M160,403L160,403A36,36 0,0 1,196 439L196,439A36,36 0,0 1,160 475L160,475A36,36 0,0 1,124 439L124,439A36,36 0,0 1,160 403z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dark_color" android:pathData="M66,403L66,403A36,36 0,0 1,102 439L102,439A36,36 0,0 1,66 475L66,475A36,36 0,0 1,30 439L30,439A36,36 0,0 1,66 403z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dark_color" android:pathData="M160,309L160,309A36,36 0,0 1,196 345L196,345A36,36 0,0 1,160 381L160,381A36,36 0,0 1,124 345L124,345A36,36 0,0 1,160 309z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dark_color" android:pathData="M66,309L66,309A36,36 0,0 1,102 345L102,345A36,36 0,0 1,66 381L66,381A36,36 0,0 1,30 345L30,345A36,36 0,0 1,66 309z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dark_color" android:pathData="M254,403L254,403A36,36 0,0 1,290 439L290,439A36,36 0,0 1,254 475L254,475A36,36 0,0 1,218 439L218,439A36,36 0,0 1,254 403z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dark_color" android:pathData="M348,403L348,403A36,36 0,0 1,384 439L384,439A36,36 0,0 1,348 475L348,475A36,36 0,0 1,312 439L312,439A36,36 0,0 1,348 403z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dark_color" android:pathData="M254,309L348,309A36,36 0,0 1,384 345L384,345A36,36 0,0 1,348 381L254,381A36,36 0,0 1,218 345L218,345A36,36 0,0 1,254 309z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_light_color" android:pathData="M301,313L301,313A32,32 0,0 1,333 345L333,345A32,32 0,0 1,301 377L301,377A32,32 0,0 1,269 345L269,345A32,32 0,0 1,301 313z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dot_selected_color" android:pathData="M193,506m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dot_color" android:pathData="M207,506m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dot_color" android:pathData="M221,506m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_dark_color" android:pathData="M30,565C30,549.54 42.54,537 58,537H356C371.46,537 384,549.54 384,565C384,580.46 371.46,593 356,593H58C42.54,593 30,580.46 30,565Z" />
+    <path android:fillColor="@color/nt_control_center_diagram_button_section_light_color" android:pathData="M58,537L207,537A28,28 0,0 1,235 565L235,565A28,28 0,0 1,207 593L58,593A28,28 0,0 1,30 565L30,565A28,28 0,0 1,58 537z" />
+</vector>
