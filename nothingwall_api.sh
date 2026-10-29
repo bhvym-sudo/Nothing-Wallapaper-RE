@@ -2,7 +2,7 @@
 set -euo pipefail
 
 BASE_URL="${NOTHINGWALL_BASE_URL:-https://wallpaper.nothingtech.link}"
-SECRET_KEY="${NOTHINGWALL_SECRET_KEY:-ZMFrBdLJauBdAnZPbGVSTBmnMiNnFLEd}"
+SECRET_KEY="${NOTHINGWALL_SECRET_KEY:?Set NOTHINGWALL_SECRET_KEY in your environment}"
 
 usage() {
   cat <<'EOF'
